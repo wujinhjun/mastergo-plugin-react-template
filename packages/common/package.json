@@ -1,0 +1,7 @@
+{
+  "name": "common",
+  "private": false,
+  "version": "0.0.0",
+  "module": "./",
+  "types": "./"
+}
