@@ -1,0 +1,7 @@
+{
+  "name": "react-vite-template",
+  "id": "1233371927148601379",
+  "api": "1.0.0",
+  "main": "dist/core.iife.js",
+  "ui": "dist/index.html"
+}
