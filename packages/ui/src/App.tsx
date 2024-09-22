@@ -1,11 +1,9 @@
 import UI_MESSAGE from 'common/constants/message';
+import { sendMsgToPlugin } from 'common/messages/sendMessage';
 
 function App() {
   const hello = () => {
-    parent.postMessage(
-      { msg: { type: UI_MESSAGE.HELLO, data: 'Hello, World!' } },
-      '*',
-    );
+    sendMsgToPlugin({ type: UI_MESSAGE.HELLO, data: 'Hello, World!' });
   };
 
   return (
