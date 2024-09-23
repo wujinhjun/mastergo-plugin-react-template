@@ -2,7 +2,7 @@ import UI_MESSAGE from '../constants/message';
 
 export type UIMessageType = UI_MESSAGE;
 
-type MessageType = {
+export type MessageType = {
   type: UIMessageType;
   data?: any;
 };
